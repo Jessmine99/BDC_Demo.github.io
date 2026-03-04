@@ -114,7 +114,7 @@ Add the following columns:
   - `MATERIAL_ID` → `MATERIAL_DESCRIPTION`
   - `MATERIAL_TYPE_CODE` → `MATERIAL_TYPE_DESCRIPTION`
 
-#### 4️⃣ Preview, Save, Deploy & Persist Data
+#### 4️⃣ Preview, Save, Deploy and Persist Data
    
  - Click save and then deploy
  - Select the Material Dimension output node, Choose  `Data Viewer ` to preview data
@@ -431,7 +431,7 @@ Not possible due to restrictions associated with the academy account.
 - Also exclude `Id` column (a dimension should have ONE business key)  
 
 ### Preview, Save & Deploy, and Persist Data
-- [#Follow steps](#4️⃣-preview-save-deploy-persist-data)
+- [#Follow steps](#4️⃣-preview-save-deploy-persist-and-data)
 
 ## Update Analytic Model
 - Open `Sales Order Analytic Model` and redeploy  
