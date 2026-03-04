@@ -415,7 +415,7 @@ Not possible due to restrictions associated with the academy account.
 
 ## Data Modeling
 ### Create SFDC View
-- Follow steps 5.1, 5.1.1, 5.1.3 using the `SFDC` table  
+- Follow steps [#Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
 - Rename dimension Business/Technical Name to `SFDC_DIM`  
 
 ### Join SFDC_DIM with Customer DIM
