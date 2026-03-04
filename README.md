@@ -114,7 +114,7 @@ Add the following columns:
   - `MATERIAL_ID` → `MATERIAL_DESCRIPTION`
   - `MATERIAL_TYPE_CODE` → `MATERIAL_TYPE_DESCRIPTION`
 
-4️⃣ Preview, Save, Deploy & Persist Data
+#### 4️⃣ Preview, Save, Deploy & Persist Data
    
  - Click save and then deploy
  - Select the Material Dimension output node, Choose  `Data Viewer ` to preview data
