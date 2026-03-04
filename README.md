@@ -73,7 +73,7 @@ Add the following columns:
 4️⃣ Click save and then click deploy.
 
 ## Data Ingestion
-### import-csv-files-into-the-local-tables 
+### Import csv files into the local tables 
 1️⃣ Go to data builder and select and open each local table(customer, sales order, material). Choose Upload Data from CSV File icon from the toolbar.
    Select the appropriate file for each local table:
    Customer DIM geo.csv --> Customer
