@@ -22,6 +22,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 2️⃣ Add all required columns and assign appropriate data types.
 ![Attributes](https://github.com/Jessmine99/BDC_Demo.github.io/blob/main/Sales%20Order%20Local%20Table%201.png)
+
 3️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
 
 4️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
