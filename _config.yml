@@ -1,1 +1,8 @@
+title: BDC Demo
+theme: just-the-docs
 
+url: https://user3222.github.io
+baseurl: /draft
+
+search_enabled: true
+heading_anchors: true
