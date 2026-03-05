@@ -1,3 +1,9 @@
+---
+title: Data Modeling
+layout: default
+nav_order: 3
+---
+
 # Data Modeling
 
 ### Create Material Dimension View
