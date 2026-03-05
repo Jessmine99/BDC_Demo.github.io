@@ -12,3 +12,4 @@ plugins:
 # Show an "On this page" table of contents
 toc_enabled: true
 toc_heading_levels: [2, 3]
+nav_enabled: true
