@@ -1,7 +1,7 @@
 ---
 title: Integrating Salesforce Data into the Analytic Model
 layout: default
-nav_order: 8
+nav_order: 7
 ---
 
 # Integrating Salesforce Data into the Analytic Model
