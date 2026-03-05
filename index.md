@@ -1,5 +1,5 @@
 ---
-title: BDC Demo
+title: Home
 layout: default
 nav_order: 1
 ---
