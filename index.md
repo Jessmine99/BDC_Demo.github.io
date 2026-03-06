@@ -86,3 +86,5 @@ To enrich the analysis further, external customer account data from **Salesforce
 Finally, the enriched data is integrated into the existing customer model in SAP Datasphere, allowing the dashboard to analyze sales performance by additional attributes such as account type, industry, and quality score.
 
 This enables business users to gain deeper insights into customer behavior, identify high-value opportunities, and support data-driven decision making.
+
+![E2E scenario](https://github.com/Jessmine99/BDC_Demo.github.io/blob/main/images/E2E%20scenario.png)
