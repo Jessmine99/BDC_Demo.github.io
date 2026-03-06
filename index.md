@@ -87,4 +87,4 @@ Finally, the enriched data is integrated into the existing customer model in SAP
 
 This enables business users to gain deeper insights into customer behavior, identify high-value opportunities, and support data-driven decision making.
 
-![My Image](https://raw.githubusercontent.com/Jessmine99/BDC_Demo.github.io/main/images/E2E%20scenario.png)
+![Architecture overview]({{ site.baseurl }}/images/E2E-scenario.png)
