@@ -27,7 +27,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 2️⃣ Add all required columns and assign appropriate data types.
 
-![Attributes](https://raw.githubusercontent.com/Jessmine99/BDC_Demo.github.io/main/public/Sales%20Order%20Local%20Table%201.png)
+![Attributes](./Sales%20Order%20Local%20Table%201.png)
 
 ![Attributes](https://raw.githubusercontent.com/Jessmine99/BDC_Demo.github.io/main/public/Sales%20Order%20Fact%20attributes%202.png)
 
