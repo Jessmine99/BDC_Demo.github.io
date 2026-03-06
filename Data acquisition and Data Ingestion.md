@@ -28,8 +28,14 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 2️⃣ Add all required columns and assign appropriate data types.
 
 ![Attributes]({{ site.baseurl }}/images/sales-attributes-1.png)
+<a href="{{ site.baseurl }}/images/sales-attributes-1.png" data-lightbox="architecture">
+  <img src="{{ site.baseurl }}/images/sales-attributes-1.png" width="500">
+</a>
 
 ![Attributes1]({{ site.baseurl }}/images/sales-attributes-2.png)
+<a href="{{ site.baseurl }}/images/sales-attributes-2.png" data-lightbox="architecture">
+  <img src="{{ site.baseurl }}/sales-attributes-2.png" width="500">
+</a>
 
 
 3️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
