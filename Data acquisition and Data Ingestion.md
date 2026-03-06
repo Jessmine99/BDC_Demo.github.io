@@ -29,7 +29,7 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 ![Attributes](https://jessmine99.github.io/BDC_Demo.github.io/sales-order-local-table-1.png)
 
-![Attributes1](https://jessmine99.github.io/BDC_Demo.github.io/sales-order-fact-attributes-2.png)
+![Attributes1](https://github.com/Jessmine99/BDC_Demo.github.io/blob/main/public/sales-order-fact-attributes-2.png)
 
 3️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
 
