@@ -7,9 +7,10 @@ nav_order: 3
 # Sharing SAP Business Data Cloud Data Products to SAP Databricks
 
 {: .warning }
-This section is not possible within the workshop environment.Below steps are explained on how to share a custom data product from SAP Datasphere to SAP Databricks
+This section cannot be performed within the workshop environment.
+The steps below are provided for informational purposes to explain the process.
 
-1. In the side navigation area, go to Data Sharing Cockpit > My Data Porducts
+1️⃣ In the side navigation area, go to ‘Data Sharing Cockpit’ → ‘My Data Products’.
 
 <p>
   <img
@@ -24,7 +25,7 @@ This section is not possible within the workshop environment.Below steps are exp
   <img src="{{ site.baseurl }}/images/custom_data_product_1.png" style="max-width:90vw;">
 </dialog>
 
-2. Search for "Sales Order Fact" > Add a description > Save changes
+2️⃣ Search for ‘Sales Order Fact’, add a description, and select ‘Save Changes’.
 <p>
   <img
     src="{{ site.baseurl }}/images/custom_data_product_2.png"
@@ -38,14 +39,13 @@ This section is not possible within the workshop environment.Below steps are exp
   <img src="{{ site.baseurl }}/images/custom_data_product_2.png" style="max-width:90vw;">
 </dialog>
 
-3. Go to ‘Catalog & Marketplace’ from the navigation bar.
+3️⃣ Go to ‘Catalog & Marketplace’ from the navigation bar.
 
-4. Select ‘Marketplace Data Products’, search for your data product, and open it.
+4️⃣ Select ‘Marketplace Data Products’, search for your data product, and open it.
 
-5. In the ‘Details’ section, review the APIs and select ‘Share’ to share the SAP Data Product with SAP Databricks Unity Catalog.
+5️⃣ In the ‘Details’ section, review the APIs and select ‘Share’ to share the SAP Data Product with ‘SAP Databricks Unity Catalog’.
 
-6. In ‘Manage Share Access’, enter the name of the ‘Delta Share’ that appears in the target system.  
-   Leave ‘Workspace’ as the default workspace and select ‘Share’.
+6️⃣ In ‘Manage Share Access’, enter the name of the ‘Delta Share’ that appears in the target system.  
+Leave ‘Workspace’ as the default workspace and select ‘Share’.
 
-7. The data product is now shared with ‘SAP Databricks’.
-
+7️⃣ The data product is now shared with ‘SAP Databricks’.
