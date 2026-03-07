@@ -13,7 +13,7 @@ nav_order: 3
   >
 </p>
 
-<dialog id="img1">
+<dialog id="img1" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/custom_data_product_1.png" style="max-width:90vw;">
 </dialog>
 
@@ -27,6 +27,6 @@ nav_order: 3
   >
 </p>
 
-<dialog id="img2">
+<dialog id="img2" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/custom_data_product_2.png" style="max-width:90vw;">
 </dialog>
