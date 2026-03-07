@@ -1,7 +1,7 @@
 ---
 title: Add Business Semantics
 layout: default
-nav_order: 5
+nav_order: 6
 ---
 
 # Add Business Semantics
