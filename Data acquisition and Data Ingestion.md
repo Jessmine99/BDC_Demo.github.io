@@ -11,14 +11,17 @@ Use credentials that are already given to you
 
 ## Explore your own space
 ### Create time dimensions & tables
+
 {: .highlight }
 Navigate to space managemenent. Select the edit button on your assigned space, where your username is displayed. Scroll down in the time section where you can generate time data for your space. Click edit on time data. When you update the year range, this will generate time tables with data and dimension views.
 
 ### Preview time dimensions & tables
-<mark>Select Repository Explorer in the side navigation area. You should see:
+
+{: .highlight }
+Select Repository Explorer in the side navigation area. You should see:
 4 views of type Dimension
 3 local tables of type Text
-1 local table of type Relational Dataset</mark>
+1 local table of type Relational Dataset
 
 ## Data acquisition
 Open Data Builder on your space. Navigate to Data Builder and select your space.
