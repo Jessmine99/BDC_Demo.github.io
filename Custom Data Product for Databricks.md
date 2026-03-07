@@ -4,7 +4,9 @@ layout: default
 nav_order: 3
 ---
 
-{ .Warning }
+# Sharing SAP Business Data Cloud Data Products to SAP Databricks
+
+{: .warning }
 This section is not possible within the workshop environment.Below steps are explained on how to share a custom data product from SAP Datasphere to SAP Databricks
 
 1. In the side navigation area, go to Data Sharing Cockpit > My Data Porducts
