@@ -1,7 +1,7 @@
 ---
 title: Salesforce Ingestion & Medallion Pipeline
 layout: default
-nav_order: 5
+nav_order: 3
 ---
 
 # Salesforce Ingestion & Medallion Pipeline
