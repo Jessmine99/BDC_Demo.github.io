@@ -127,7 +127,8 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
    - Repeat for `Customer DIM` and map `SOLD_TO_CUSTOMER` → `CUSTOMER_NUMBER`.
    - Repeat for `Time Dimension - Day` and map `ORDER_DATE_KEY` → `Date`.
  
- *Choose the technical name not the business name with the link as it will open a new page.*
+ {: .note }
+ Choose the technical name not the business name with the link as it will open a new page.
 
 6️⃣ Click Save and Deploy the view.
 
