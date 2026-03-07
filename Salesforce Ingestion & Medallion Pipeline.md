@@ -38,4 +38,5 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 *It might take a few minutes for the data product to appear*  
 
 ## Install Data Product
+{: .note }
 Not possible due to restrictions associated with the academy account. 
