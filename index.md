@@ -4,7 +4,7 @@ layout: default
 nav_order: 1
 ---
 
-# Introduction
+#  "Custom" Data Products, Modeling and SAC reporting
 
 End-to-end sales analytics demo using SAP Datasphere, SAP Analytics Cloud and SAP Databricks.  
 In this hands-on scenario, you will build an analytics workflow by ingesting, modeling, and enriching data, then visualizing insights through interactive dashboards.
