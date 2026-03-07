@@ -84,6 +84,12 @@ Add the following columns:
 3️⃣ Set `DISTRIBUTION_CHANNEL` as the **Key Attribute**
 
 ## Data Ingestion
+
+{: .note }
+### Download the required CSV files from the IBM Box folder:
+
+[IBM Box – Source CSV Files](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
+
 ### Import csv files into the local tables 
 1️⃣ Go to data builder and select and open each local table(customer, sales order, material). Choose Upload Data from CSV File icon from the toolbar.
    Select the appropriate file for each local table:
