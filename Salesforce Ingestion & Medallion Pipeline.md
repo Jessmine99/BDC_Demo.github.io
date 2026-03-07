@@ -39,5 +39,6 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
 It might take a few minutes for the data product to appear 
 
 ## Install Data Product
+
 {: .warning }
 Not possible due to limitations in SAP workshop environment.
