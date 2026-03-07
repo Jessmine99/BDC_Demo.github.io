@@ -21,6 +21,6 @@ callouts:
     color: red
 
 callouts:
-  warning:
+  note:
     title: Note
     color: red
