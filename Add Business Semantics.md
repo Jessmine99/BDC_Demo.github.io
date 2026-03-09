@@ -144,20 +144,86 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 1️⃣ Go to `Data Builder` → `Graphical View` and drag the Customer table from the repository onto the canvas, hovering it onto `Output View 1`.
 
 2️⃣ Click `Output View 1` and in the `Properties Panel` rename the Business Name to `Customer DIM`. Change Semantic Usage to `Dimension` and set Expose for Consumption to `ON`.
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_properties.png"
+    alt="customer_dim_properties"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img18').showModal()"
+  >
+</p>
 
+<dialog id="img18" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_properties.png" style="max-width:90vw;">
+</dialog> 
 3️⃣ In the `Properties Panel`, click `Edit Attributes` and configure:
    - Set `CUSTOMER_NAME` to Semantic Type `Text`.
    - Set `LATITUDE` and `LONGITUDE` to Semantic Type `Latitude` and `Longitude`.
    - Set `Text/Association` column `CUSTOMER_NUMBER` → `CUSTOMER_NAME`.
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_model_properties.png"
+    alt="customer_dim_model_properties"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img19').showModal()"
+  >
+</p>
 
+<dialog id="img19" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_model_properties.png" style="max-width:90vw;">
+</dialog> 
 4️⃣ Select the `Customer DIM` node and choose the `Calculated Columns operator` from the popup menu. Click the "+" icon to add a new column, choose `Geo-Coordinates Column`, rename it to `CustomerLocation`, and verify `LATITUDE` and `LONGITUDE` are correctly assigned.
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_calculated__col.png"
+    alt="ccustomer_dim_calculated__col"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img20').showModal()"
+  >
+</p>
 
+<dialog id="img20" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_calculated__col.png" style="max-width:90vw;">
+</dialog>
 5️⃣ Add a hierarchy by selecting the Customer DIM view, clicking the `Hierarchy icon` (top right in Properties), choosing Level-Based Hierarchy, renaming it to `LocationHierarchy`, and adding levels `COUNTRY_NAME` and `CITY`.
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_hierarchy.png"
+    alt="customer_dim_hierarchy"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img21').showModal()"
+  >
+</p>
 
+<dialog id="img21" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_hierarchy.png" style="max-width:90vw;">
+</dialog>
 6️⃣ Drag the `Distribution Channel DIM` onto the canvas and hover it onto the calculated "fx" operator until Join appears, then select Join. In the Properties Panel choose Left Join and ensure `DISTRIBUTION_CHANNEL` columns are correctly mapped.
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_join_1.png"
+    alt="ccustomer_dim_customer_dim_join_1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img22').showModal()"
+  >
+</p>
 
+<dialog id="img22" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_join_1.png" style="max-width:90vw;">
+</dialog>
 7️⃣ Click the `Projection operator` next to the Left Join. Exclude the `DISTRIBUTION_CHANNEL` column that is set as a key using the (...) menu. If the **non-key** `DISTRIBUTION_CHANNEL` column is excluded, click Restore so that **only one** business key remains.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/customer_dim_join_1.1.png"
+    alt="ccustomer_dim_customer_dim_join_1.1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img23').showModal()"
+  >
+</p>
 
+<dialog id="img23" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/customer_dim_join_1.1.png" style="max-width:90vw;">
+</dialog>
 8️⃣ Drag `SFDC_DIM` onto the canvas → Hover the dimension over the `Customer_DIM` node until the option **Join** or **Union** appears → Select **Join**.
 
    In the Properties Panel, choose **Left Join**.  
