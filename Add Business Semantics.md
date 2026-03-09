@@ -175,15 +175,15 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 4️⃣ Select the `Customer DIM` node and choose the `Calculated Columns operator` from the popup menu. Click the "+" icon to add a new column, choose `Geo-Coordinates Column`, rename it to `CustomerLocation`, and verify `LATITUDE` and `LONGITUDE` are correctly assigned.
  <p>
   <img
-    src="{{ site.baseurl }}/images/customer_dim_calculated__col.png"
-    alt="customer_dim_calculated__col"
+    src="{{ site.baseurl }}/images/customer_dim_calculated_col.png"
+    alt="customer_dim_calculated_col"
     style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img20').showModal()"
   >
 </p>
 
 <dialog id="img20" onclick="if(event.target===this)this.close()">
-  <img src="{{ site.baseurl }}/images/customer_dim_calculated__col.png" style="max-width:90vw;">
+  <img src="{{ site.baseurl }}/images/customer_dim_calculated_col.png" style="max-width:90vw;">
 </dialog>
 5️⃣ Add a hierarchy by selecting the Customer DIM view, clicking the `Hierarchy icon` (top right in Properties), choosing Level-Based Hierarchy, renaming it to `LocationHierarchy`, and adding levels `COUNTRY_NAME` and `CITY`.
  <p>
