@@ -27,15 +27,14 @@ The objective of this demo is to demonstrate how to build an end-to-end analytic
 During this exercise you will:
 
 - Ingest and manage datasets in **SAP Datasphere**
+- Process external data using **SAP Databricks**
+- Publish a data product using **Delta Sharing**
 - Build fact and dimension models using graphical data modeling
 - Define semantic relationships between datasets
 - Create an **Analytic Model** for business reporting
 - Define calculated, restricted, and exception aggregation measures
 - Create an interactive analytics story in **SAP Analytics Cloud**
 - Explore data using **Just Ask** and **Data Analyzer**
-- Process external data using **SAP Databricks**
-- Publish a data product using **Delta Sharing**
-- Enrich analytics models with external Salesforce account data
 
 ---
 
@@ -45,13 +44,12 @@ After completing this demo, you will be able to:
 
 - Understand the end-to-end analytics workflow across SAP Datasphere, SAP Analytics Cloud, and SAP Databricks
 - Perform data ingestion and preparation in SAP Datasphere
+- Integrate external data sources through SAP Databricks
 - Design fact and dimension models with associations and hierarchies
 - Create analytic models optimized for reporting
 - Build interactive dashboards with charts, tables, and geo maps
 - Apply filters and input controls for dynamic analysis
 - Use natural language analytics with **Just Ask**
-- Integrate external data sources through SAP Databricks
-- Extend analytics models with additional business attributes
 
 ---
 
@@ -73,18 +71,11 @@ However, business users need better insights into:
 - High-value transactions
 - Customer segmentation
 
-To address this challenge, the analytics team builds a modern analytics solution using SAP Business Data Cloud technologies.
-
-First, operational datasets are ingested into **SAP Datasphere**, where the team creates a semantic data model consisting of fact and dimension views. These datasets are connected using associations to build a structured model for analysis.
-
-Next, an **Analytic Model** is created to expose business measures such as revenue, discounts, and order metrics.
-
+To address this challenge, the analytics team builds an analytics solution using SAP Business Data Cloud.
+First, operational sales datasets are ingested into **SAP Datasphere**, where the team builds a semantic data model consisting of fact and dimension views. These datasets are connected using associations to create a structured analytical model.
+At the same time, customer account data from **Salesforce** is ingested into **SAP Databricks**, where it is prepared and processed. The enriched dataset is then shared as a data product using **Delta Sharing**.
+Next, an **Analytic Model** is created to expose business measures such as revenue, discounts, and order metrics together with the enriched customer attributes.
 The analytic model is then consumed in **SAP Analytics Cloud**, where an interactive sales analytics dashboard is created with KPIs, charts, tables, and geo maps.
-
-To enrich the analysis further, external customer account data from **Salesforce** is processed in **SAP Databricks**. The data is transformed and published as a data product using Delta Sharing.
-
-Finally, the enriched data is integrated into the existing customer model in SAP Datasphere, allowing the dashboard to analyze sales performance by additional attributes such as account type, industry, and quality score.
-
-This enables business users to gain deeper insights into customer behavior, identify high-value opportunities, and support data-driven decision making.
+This integrated approach enables business users to analyze sales performance together with enriched customer attributes such as account type, industry, quality score, and customer segment, providing deeper insights into customer behavior and supporting data-driven decision making.
 
 ![Architecture overview]({{ site.baseurl }}/images/E2E-scenario.png)
