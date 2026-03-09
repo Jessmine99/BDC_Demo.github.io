@@ -53,7 +53,7 @@ nav_order: 5
   >
 </p>
 
-<dialog id="img10" onclick="if(event.target===this)this.close()">
+<dialog id="img11" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Material_dim_2.png" style="max-width:90vw;">
 </dialog>
 
@@ -62,11 +62,11 @@ nav_order: 5
     src="{{ site.baseurl }}/images/Material_dim_3.png"
     alt="Material_dim_3"
     style="width:600px; cursor:pointer;"
-    onclick="document.getElementById('img11').showModal()"
+    onclick="document.getElementById('img12').showModal()"
   >
 </p>
 
-<dialog id="img11" onclick="if(event.target===this)this.close()">
+<dialog id="img12" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Material_dim_3.png" style="max-width:90vw;">
 </dialog>
 
