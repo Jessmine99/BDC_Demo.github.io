@@ -23,7 +23,7 @@ Log in SAP Databricks. From `product switch` icon (top right corner) next to you
   <img
     src="{{ site.baseurl }}/images/medallion architecture.png"
     alt="Medallion architecture"
-    style="width:300px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img1').showModal()"
   >
 </p>
