@@ -104,16 +104,39 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 ### Create SFDC Table
 - In `Data Builder`, create a new table  
 - Enter Business Name / Technical Name as `SFDC`  
-- Add required columns and define data types  
+- Add required columns and define data types 
+  <p>
+  <img
+    src="{{ site.baseurl }}/images/SFDC_attributes.png"
+    alt="SFDC_attributes"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img16').showModal()"
+  >
+</p>
+
+<dialog id="img16" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/SFDC_attributes.png" style="max-width:90vw;">
+</dialog> 
 - Mark `Id` as key attribute  
 - Click Save and confirm the business/technical name  
 - Click Deploy to activate the table  
-- Upload `EU_Accounts.csv` file. [#Follow data ingestion steps](#import-csv-files-into-the-local-tables)
+- Upload `account_clusters.csv` file. [Follow data ingestion steps](#import-csv-files-into-the-local-tables)
 
 ### Create SFDC View
-- Follow steps [#Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
+- Follow steps [Follow data modeling steps](#create-material-dimension-view) using the `SFDC` table  
 - Rename dimension Business/Technical Name to `SFDC_DIM`  
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/SFDC_Dim.png"
+    alt="SFDC_Dim"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img17').showModal()"
+  >
+</p>
 
+<dialog id="img17" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/SFDC_Dim.png" style="max-width:90vw;">
+</dialog> 
 ---
 
 ### Create Customer Dimension View
