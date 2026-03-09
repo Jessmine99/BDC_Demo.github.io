@@ -19,6 +19,18 @@ nav_order: 5
     - Rename Business Name to `Material DIM`  
     - Change Semantic Usage to `Dimension`
     - Set Expose for Consumption to `ON`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Material_dim_1.png"
+    alt="Material_dim_1"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img10').showModal()"
+  >
+</p>
+
+<dialog id="img10" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Material_dim_1.png" style="max-width:90vw;">
+</dialog>
 
 3️⃣ Define Semantic Types & Text Associations
 
@@ -32,6 +44,32 @@ nav_order: 5
   - `MATERIAL_ID` → `MATERIAL_DESCRIPTION`
   - `MATERIAL_TYPE_CODE` → `MATERIAL_TYPE_DESCRIPTION`
 
+  <p>
+  <img
+    src="{{ site.baseurl }}/images/Material_dim_2.png"
+    alt="Material_dim_2"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img11').showModal()"
+  >
+</p>
+
+<dialog id="img10" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Material_dim_2.png" style="max-width:90vw;">
+</dialog>
+
+  <p>
+  <img
+    src="{{ site.baseurl }}/images/Material_dim_3.png"
+    alt="Material_dim_3"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img11').showModal()"
+  >
+</p>
+
+<dialog id="img11" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Material_dim_3.png" style="max-width:90vw;">
+</dialog>
+
 4️⃣ Preview, Save, Deploy and Persist Data
    
  - Click save and then deploy
@@ -44,6 +82,18 @@ nav_order: 5
 
 Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimension business/technical name to `Distribution Channel DIM`
 
+  <p>
+  <img
+    src="{{ site.baseurl }}/images/distr_dim.png"
+    alt="distr_dim"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img12').showModal()"
+  >
+</p>
+
+<dialog id="img12" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/distr_dim.png" style="max-width:90vw;">
+</dialog>
 ---
 
 ### Create SFDC Dimension View
