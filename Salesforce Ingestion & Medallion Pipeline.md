@@ -143,3 +143,20 @@ It might take a few minutes for the data product to appear
 
 {: .warning }
 Not possible due to limitations in SAP workshop environment.
+
+Instead, we manually download the table and later use it to create the dimension view in SAP Datasphere.
+Navigate to `Workspace` → `Users` → click on your username → open the `EU_Accounts (Data Modeling)` notebook.  
+From the last code block, download the table as a **CSV file**.
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/account_clusters_csv.png"
+    alt="account_clusters_csv"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img15').showModal()"
+  >
+</p>
+
+<dialog id="img15" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/account_clusters_csv.png" style="max-width:90vw;">
+</dialog>
