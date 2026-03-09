@@ -48,7 +48,7 @@ nav_order: 5
   <img
     src="{{ site.baseurl }}/images/Material_dim_2.png"
     alt="Material_dim_2"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img11').showModal()"
   >
 </p>
@@ -61,7 +61,7 @@ nav_order: 5
   <img
     src="{{ site.baseurl }}/images/Material_dim_3.png"
     alt="Material_dim_3"
-    style="width:400px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img11').showModal()"
   >
 </p>
