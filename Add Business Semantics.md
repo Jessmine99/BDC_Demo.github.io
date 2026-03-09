@@ -176,8 +176,8 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
  <p>
   <img
     src="{{ site.baseurl }}/images/customer_dim_calculated__col.png"
-    alt="ccustomer_dim_calculated__col"
-    style="width:600px; cursor:pointer;"
+    alt="customer_dim_calculated__col"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img20').showModal()"
   >
 </p>
@@ -190,7 +190,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/customer_dim_hierarchy.png"
     alt="customer_dim_hierarchy"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img21').showModal()"
   >
 </p>
@@ -203,7 +203,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/customer_dim_join_1.png"
     alt="ccustomer_dim_customer_dim_join_1"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img22').showModal()"
   >
 </p>
