@@ -148,7 +148,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/customer_dim_properties.png"
     alt="customer_dim_properties"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img18').showModal()"
   >
 </p>
