@@ -265,7 +265,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <p>
   <img
     src="{{ site.baseurl }}/images/customer_dim_canvas_2.png"
-    alt="ccustomer_dim_customer_dim_canvas_2"
+    alt="customer_dim_customer_dim_canvas_2"
     style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img25').showModal()"
   >
@@ -284,9 +284,31 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 ### Create Sales Order Fact Table
 
 1️⃣ Go to `Data Builder` → `New Graphical View` and drag the `Sales Order table` from the repository onto the canvas, hovering it onto Output View 1.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/sales_order_fact_canvas.png"
+    alt="sales_order_fact_canvas"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img26').showModal()"
+  >
+</p>
 
+<dialog id="img26" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales_order_fact_canvas.png" style="max-width:90vw;">
+</dialog>
 2️⃣ Click `Output View 1` and in the Properties Panel rename the Business Name to `Sales Order Fact`. Change Semantic Usage to `Fact` and set Expose for Consumption to `ON`.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/sales_order_fact_properties.png"
+    alt="sales_order_fact_properties"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img27').showModal()"
+  >
+</p>
 
+<dialog id="img27" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales_order_fact_properties.png" style="max-width:90vw;">
+</dialog>
 3️⃣ In the `Properties Panel`, click `Edit Attributes` and configure:
    - Assign Semantic Type `Currency Code` to `SO_CURRENCY_CODE`.
    - Assign Semantic Type `Text` to `STATUS_DESCRIPTION`.
@@ -298,12 +320,35 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
    - `ORDER_AMOUNT_DOCUMENT_CURRENCY`
    - `ORDER_AMOUNT_EURO`
    - `QUANTITY`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/sales_order_fact_measures.png"
+    alt="sales_order_fact_measures"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img28').showModal()"
+  >
+</p>
 
+<dialog id="img28" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales_order_fact_measures.png" style="max-width:90vw;">
+</dialog>
 5️⃣ In the `Properties Panel`, scroll to the `Associations` section and click the “+” button to create a new Association.
    - Select `Material DIM` as the association target and map `MATERIAL` → `MATERIAL_ID`.
    - Repeat for `Customer DIM` and map `SOLD_TO_CUSTOMER` → `CUSTOMER_NUMBER`.
    - Repeat for `Time Dimension - Day` and map `ORDER_DATE_KEY` → `Date`.
- 
+ <p>
+  <img
+    src="{{ site.baseurl }}/images/sales_order_fact_associations.png"
+    alt="sales_order_fact_associations"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img29').showModal()"
+  >
+</p>
+
+<dialog id="img29" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales_order_fact_associations.png" style="max-width:90vw;">
+</dialog>
+
  {: .note }
  Choose the technical name not the business name with the link as it will open a new page.
 
