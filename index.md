@@ -38,6 +38,8 @@ During this exercise you will:
 
 ---
 
+![Architecture overview]({{ site.baseurl }}/images/E2E-scenario.png)
+
 # Outcomes
 
 After completing this demo, you will be able to:
@@ -77,5 +79,3 @@ At the same time, customer account data from **Salesforce** is ingested into **S
 Next, an **Analytic Model** is created to expose business measures such as revenue, discounts, and order metrics together with the enriched customer attributes.
 The analytic model is then consumed in **SAP Analytics Cloud**, where an interactive sales analytics dashboard is created with KPIs, charts, tables, and geo maps.
 This integrated approach enables business users to analyze sales performance together with enriched customer attributes such as account type, industry, quality score, and customer segment, providing deeper insights into customer behavior and supporting data-driven decision making.
-
-![Architecture overview]({{ site.baseurl }}/images/E2E-scenario.png)

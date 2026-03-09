@@ -31,9 +31,31 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 2️⃣ Add all required columns and assign appropriate data types.
 
-![Attributes]({{ site.baseurl }}/images/sales-attributes-1.png)
+<p>
+  <img
+    src="{{ site.baseurl }}/images/sales-attributes-1.png"
+    alt="Medallion architecture"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img1').showModal()"
+  >
+</p>
 
-![Attributes1]({{ site.baseurl }}/images/sales-attributes-2.png)
+<dialog id="img1" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales-attributes-1.png" style="max-width:90vw;">
+</dialog>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/sales-attributes-2.png"
+    alt="Medallion architecture"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img1').showModal()"
+  >
+</p>
+
+<dialog id="img1" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/sales-attributes-2.png" style="max-width:90vw;">
+</dialog>
 
 3️⃣ Mark `DOCUMENT_ID`, `DOCUMENT_ID_POSITION` as **Key Attributes**. 
 
