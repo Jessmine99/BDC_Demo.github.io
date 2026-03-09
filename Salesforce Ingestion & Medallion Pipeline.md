@@ -9,7 +9,7 @@ nav_order: 4
 Log in SAP Databricks. From `product switch` icon (top right corner) next to your username icon choose `SAP Databricks`
 
 ## Data Ingestion
-- Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` csv file.  
+- Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` xlsx file.  
 - In the catalog, choose `workspace` and for the schema choose `default`  
 - Click on `Create Table`  
 
@@ -91,7 +91,7 @@ Using the Gold dataset:
 - This results in an `account_clusters` table 
 
 ## Delta Sharing
-- Catalog --> `workspace` --> `default` schema --> `eu_accounts_gold`  
+- Catalog --> `workspace` --> `default` schema --> `account_clusters`  
 - Select `Share` on the top right corner --> `Share via Delta Sharing` --> Create a new share with a view  
 - Share name: `account_clusters(your Username)` --> Recipient: `Business Data Cloud` 
 
