@@ -33,19 +33,6 @@ nav_order: 6
    - `CUSTOMER_CREATED_DATE`
    - `Id`
    - `ERP_Customer_Code`
-   - `Name`
-   - `OwnerId`
-   - `Visiting_Address_del__PostalCode__s`
-   - `Visiting_Address_del__Street__s`
-   - `Phone`
-   - `Fax`
-   - `Tax_ID`
-   - `Website`
-   - `Web_Email`
-   - `createddate`
-   - `LastModifiedDate`
-   - `isdeleted`
-   - `ownername`
 
 ### Create Calculated Measures
 
