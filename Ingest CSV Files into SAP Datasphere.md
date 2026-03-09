@@ -26,6 +26,19 @@ Select Repository Explorer in the side navigation area. You should see:
 ## Data acquisition
 Open Data Builder on your space. Navigate to Data Builder and select your space.
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/data_builder.png"
+    alt="data_builder"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img1').showModal()"
+  >
+</p>
+
+<dialog id="img1" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/data_builder.png" style="max-width:90vw;">
+</dialog>
+
 ### Create Sales Order local Table
 1️⃣ In Data Builder, create a new table. Enter Business Name / Technical Name as `Sales Order`.
 
@@ -58,6 +71,22 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 
 2️⃣ Add required columns and define data types.
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/customer_attributes.png"
+    alt="customer_attributes"
+    style="width:600px;"
+  >
+</p>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/customer_attributes.png"
+    alt="customer_attributes"
+    style="width:600px;"
+  >
+</p>
+
 3️⃣ Mark `CUSTOMER_NUMBER` as the **Key Attribute**.
 
 4️⃣ Click Save and confirm the business/technical name. Then click Deploy to activate the table.
@@ -68,6 +97,22 @@ Open Data Builder on your space. Navigate to Data Builder and select your space.
 1️⃣ In Data Builder, create a new table. Enter Business Name / Technical Name as `Material`.
 
 2️⃣ Add required columns and define data types.
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/material_attributes.png"
+    alt="material_attributes"
+    style="width:600px;"
+  >
+</p>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/material_attributes.png"
+    alt="material_attributes"
+    style="width:600px;"
+  >
+</p>
 
 3️⃣ Mark `MATERIAL_ID` as the **Key Attribute**.
 
@@ -92,6 +137,22 @@ Add the following columns:
 | CREDIT_LIMIT | Integer64 |
 | LEAD_TIME_DAYS | Integer64 |
 | PAYMENT_TERMS | String (10) |
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/distr_attributes.png"
+    alt="material_attributes"
+    style="width:600px;"
+  >
+</p>
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/distr_attributes.png"
+    alt="material_attributes"
+    style="width:600px;"
+  >
+</p>
 
 3️⃣ Set `DISTRIBUTION_CHANNEL` as the **Key Attribute**
 
