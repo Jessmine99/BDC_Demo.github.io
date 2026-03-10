@@ -217,7 +217,7 @@ nav_order: 7
   <img
     src="{{ site.baseurl }}/images/preview_model.png"
     alt="preview_model"
-    style="width:300px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img43').showModal()"
   >
 </p>
