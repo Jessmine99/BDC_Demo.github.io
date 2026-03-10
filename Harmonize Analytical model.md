@@ -178,20 +178,25 @@ nav_order: 7
 <dialog id="img40" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Avg_spend_per_cust.png" style="max-width:90vw;">
 </dialog>
+
+Repeat steps for another calculated measure:
+ - Business Name: `Price per unit`
+   - Expression:
+     `ORDER_AMOUNT_EURO / QUANTITY`
+   - Click `Validate`
 ### Define Exception Aggregation Measure
 
 1️⃣4️⃣ Add a `Calculated Measure`:
-   - Business Name: `High value products`
-   - Expression: `ORDER_AMOUNT_EURO > 900`
+   - Business Name: `Expensive products`
+   - Expression: `CASE WHEN (ORDER_AMOUNT_EURO / QUANTITY) > 900 THEN 1 ELSE 0 END`
    - Click `Validate`.
 
-1️⃣5️⃣ Scroll to `Exception Aggregation` and set:
+ Scroll to `Exception Aggregation` and set:
    - Type: `SUM`
    - Dimension: `MATERIAL (Sales Order Fact)`
 
 ### Add Filter Variable
-
-1️⃣6️⃣ In the `Variables` section, add a `Filter Variable`:
+1️⃣5️⃣ In the `Variables` section, add a `Filter Variable`:
    - Dimension: `Year (ORDER_DATE_KEY)`
    - Filter Type: `Interval`
    - From: `2024` To: `2025`
@@ -209,6 +214,6 @@ nav_order: 7
 </dialog>
 ### Save & Preview
 
-1️⃣7️⃣ Click Save and Deploy.
+1️⃣6️⃣ Click Save and Deploy.
 
-1️⃣8️⃣ Click `Preview` (top right) to validate the analytic model.
+1️⃣7️⃣ Click `Preview` (top right) to validate the analytic model.
