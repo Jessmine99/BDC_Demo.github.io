@@ -9,6 +9,19 @@ nav_order: 1
 
 Log in SAP Databricks. From `product switch` icon (top right corner) next to your username icon choose `SAP Databricks`
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/log in.png"
+    alt="log in"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img44').showModal()"
+  >
+</p>
+
+<dialog id="img44" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/log in.png" style="max-width:90vw;">
+</dialog>
+
 ## SFDC Data Ingestion
 - Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` xlsx file.  
 - In the catalog, choose `workspace` and for the schema choose `default`  
