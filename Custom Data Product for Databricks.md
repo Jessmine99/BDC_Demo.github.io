@@ -1,7 +1,7 @@
 ---
-title: 2.Custom Data Product for Databricks
+title: 3.Custom Data Product for Databricks
 layout: default
-nav_order: 3
+nav_order: 4
 ---
 
 # Sharing SAP Business Data Cloud Data Products to SAP Databricks
