@@ -44,7 +44,7 @@ nav_order: 7
 <dialog id="img33" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Sales_Order_Fact_Node.png" style="max-width:90vw;">
 </dialog>
-5️⃣ Click the `Material DIM` node and **unselect**:
+5️⃣ Click the `Material DIM` node and in the `Properties Panel` **unselect**:
    - `BASE_UOM_CODE`
    - `MAXIMUM_PACKAGE_SIZE`
 <p>
@@ -59,7 +59,7 @@ nav_order: 7
 <dialog id="img34" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/Material_Dim_Node.png" style="max-width:90vw;">
 </dialog>
-6️⃣ Click the `Customer DIM` node and **unselect**:
+6️⃣ Click the `Customer DIM` node and in the `Properties Panel` **unselect**:
    - `LATITUDE`
    - `LONGITUDE`
    - `CUSTOMER_EFFECTIVE_DATE`
@@ -111,21 +111,54 @@ nav_order: 7
    - Source Measure: `NET_VALUE_AMOUNT_DOCUMENT_CURRENCY`
    - Expression: `COUNTRY_NAME_SOLD_ `= `'France'`
    - Click `Validate`.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/France_revenue.png"
+    alt="France_revenue"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img37').showModal()"
+  >
+</p>
 
+<dialog id="img37" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/France_revenue.png" style="max-width:90vw;">
+</dialog>
 1️⃣1️⃣ Create another `Restricted Measure`:
 
    - Business Name: `Invoice_gross_revenue`
    - Source Measure: `ORDER_AMOUNT_EURO`
    - Expression: `STATUS` = `'7'`
    - Click `Validate`.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Invoiced_revenue.png"
+    alt="Invoiced_revenue"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img38').showModal()"
+  >
+</p>
 
+<dialog id="img38" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Invoiced_revenue.png" style="max-width:90vw;">
+</dialog>
 ### Define Count Distinct Measure
 
 1️⃣2️⃣ In Measures → `+` → `Count Distinct Measure`:
    - Business Name: `Customer Count`
    - Dimension: `SOLD_TO_CUSTOMER`
    - Enable `Is Auxiliary`.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Customer_count.png"
+    alt="Customer_count"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img39').showModal()"
+  >
+</p>
 
+<dialog id="img39" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Customer_count.png" style="max-width:90vw;">
+</dialog>
 1️⃣3️⃣ Add a `Calculated Measure`:
    - Business Name: `Avg Spend per customer (EUR)`
    - Expression:
@@ -133,7 +166,18 @@ nav_order: 7
    - Click `Validate`.
 
 *Note: `ORDER_AMOUNT_EURO / ORDER_AMOUNT_DOCUMENT_CURRENCY` represents the exchange rate from document currency to Euro.*
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Avg_spend_per_cust.png"
+    alt="Avg_spend_per_cust"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img40').showModal()"
+  >
+</p>
 
+<dialog id="img40" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Avg_spend_per_cust.png" style="max-width:90vw;">
+</dialog>
 ### Define Exception Aggregation Measure
 
 1️⃣4️⃣ Add a `Calculated Measure`:
@@ -151,7 +195,18 @@ nav_order: 7
    - Dimension: `Year (ORDER_DATE_KEY)`
    - Filter Type: `Interval`
    - From: `2024` To: `2025`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Filter_variable.png"
+    alt="Filter_variable"
+    style="width:300px; cursor:pointer;"
+    onclick="document.getElementById('img42').showModal()"
+  >
+</p>
 
+<dialog id="img42" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Filter_variable.png" style="max-width:90vw;">
+</dialog>
 ### Save & Preview
 
 1️⃣7️⃣ Click Save and Deploy.
