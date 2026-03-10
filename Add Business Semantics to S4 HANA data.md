@@ -279,3 +279,15 @@ At the assocation target box choose the technical name not the business name wit
 7️⃣ Select the output node, open `Data Viewer` to preview the data, then go to `Data Persistence` in the `Properties Panel` and click `Start Data Persistence`.
 
 8️⃣ Go to the toolbar → `Tools` → `Impact and Lineage Analysis` icon. Switch from `Data Analysis` to `Dependency Analysis` to view all related objects and associations of the `Sales Order Fact` within the user space.
+<p>
+  <img
+    src="{{ site.baseurl }}/images/Dependency_Analysis.png"
+    alt="Dependency_Analysis"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img32').showModal()"
+  >
+</p>
+
+<dialog id="img32" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/Dependency_Analysis.png" style="max-width:90vw;">
+</dialog>
