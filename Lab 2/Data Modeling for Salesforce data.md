@@ -34,7 +34,7 @@ nav_order: 2
 - Upload `account_clusters.csv` file. [Follow data ingestion steps](sap-datasphere-ingestion.md#Import-csv-files-into-the-local-tables)
 
 ### Create SFDC View
-- [Follow data modeling steps](data-modeling-for-s-4-hana-data.md#create-material-dimension-view) using the `SFDC` table  
+- [Data Modeling steps]({{ site.baseurl }}/data-modeling-for-s-4-hana-data/#create-material-dimension-view) using the `SFDC` table  
 - Rename dimension Business/Technical Name to `SFDC_DIM`  
  <p>
   <img
