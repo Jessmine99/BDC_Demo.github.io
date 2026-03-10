@@ -9,6 +9,19 @@ parent: Lab 3
 
 Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next to your username icon choose `SAP Analytics Cloud`
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/log in.png"
+    alt="log in"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img44').showModal()"
+  >
+</p>
+
+<dialog id="img44" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/log in.png" style="max-width:90vw;">
+</dialog>
+
 ### Import analytic model and create a new story
 - Navigation bar --> `Stories` --> `MyStory - Complete` --> Toolbar --> Tools --> `Add new Data` --> `Data from an existing dataset or model` --> From Datasphere list select `SAPDSP` --> Select your datasphere space --> Select the sales order analytic model you created --> Keep the default variables and select `Set` --> Select `Save` from the File menu in the top toolbar --> Ignore the warning and select the `Keep Data source` option  
 - Name the story with your username `username_Sales_Analytics_Dashboard`  

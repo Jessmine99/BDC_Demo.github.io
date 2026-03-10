@@ -7,7 +7,7 @@ nav_order: 1
 
 # Ingest S/4HANA CSV Files into SAP Datasphere
 
-## Log on to Datasphere
+## Log in SAP Datasphere
 Use credentials that are already given to you
 
 ## Explore your own space
