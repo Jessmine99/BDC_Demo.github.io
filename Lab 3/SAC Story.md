@@ -43,6 +43,19 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Select More Actions (…) on the Numeric Point chart --> More Options -> Show/Hide -> deselect `Primary Value Labels`  
 - Update the chart title: Double click on `ORDER_AMOUNT_EURO` and enter `Global Gross Sales` 
 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/KPI.png"
+    alt="KPI"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img45').showModal()"
+  >
+</p>
+
+<dialog id="img45" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/KPI.png" style="max-width:90vw;">
+</dialog>
+
 ### Add Time Series Chart
 
 **To understand how sales evolve over time, we create a chart that shows gross sales by order date.**
@@ -50,7 +63,20 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Select the `+ Create a Time Series chart` placeholder --> Available objects --> Drag `ORDER_AMOUNT_EURO` to Measures, and `ORDER_DATE_KEY` to `Time location`  
 - Click on the `right side panel` icon from the toolbar to view the chart  
 - Click on `1M` in the chart  
-- Double click on `ORDER_AMOUNT_EURO per ORDER_DATE_KEY` title and enter `Gross Sales per Order Date`  
+- Double click on `ORDER_AMOUNT_EURO per ORDER_DATE_KEY` title and enter `Gross Sales per Order Date` 
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/time_series.png"
+    alt="time_series"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img46').showModal()"
+  >
+</p>
+
+<dialog id="img46" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/time_series.png" style="max-width:90vw;">
+</dialog>
 
 ### Add tables
 
@@ -60,6 +86,19 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - In the `Builder` tab under `Rows`, select `+ Add Dimension` --> Select `SOLD_TO_CUSTOMER`, `SALES_ORGANIZATION` --> Click outside the Dimension Dropdown to close it  
 - Add your column dimensions --> Under `Columns`, select `+ Add Dimension` --> Select `ORDER_DATE_KEY`  
 - Change the measure column --> Select `Set Filters for Measures` --> Select `Invoice gross revenue` and `% Discount`  
+
+<p>
+  <img
+    src="{{ site.baseurl }}/images/table.png"
+    alt="table"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img47').showModal()"
+  >
+</p>
+
+<dialog id="img47" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/table.png" style="max-width:90vw;">
+</dialog>
 
 ### Add Geo Maps
 
@@ -93,6 +132,18 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Deselect 2024, then select `Apply Selections` and see changes in Time Series chart  
 - Deselect 3975 sales org, then select `Apply Selections` and see changes in the table  
 - You will notice that all the widgets are updated, except for the `Global Gross Sales` KPI  
+x<p>
+  <img
+    src="{{ site.baseurl }}/images/input_controls.png"
+    alt="input_controls"
+    style="width:400px; cursor:pointer;"
+    onclick="document.getElementById('img48').showModal()"
+  >
+</p>
+
+<dialog id="img48" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/input_controls.png" style="max-width:90vw;">
+</dialog>
 
 ### Create page 2 
 - Toolbar --> `View` --> `left side panel` --> `Outline` --> `Add second page`  
