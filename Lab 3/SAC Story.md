@@ -175,6 +175,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 <dialog id="img49" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/pie_chart.png" style="max-width:90vw;">
 </dialog>
+
 **Interpretation**: Medium and Low value customers contribute the largest share of revenue in France. This suggests that a significant part of sales comes from customers that are not necessarily classified as the most valuable, meaning they still play an important role in overall revenue.
 
 **In which industries are the products sold at the highest average price?**
@@ -198,6 +199,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 <dialog id="img50" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/bar_chart.png" style="max-width:90vw;">
 </dialog>
+
 **Interpretation**: Across most industries, the average price per product is relatively similar. However, the healthcare industry shows the highest average order price, suggesting that products sold in this industry may be more specialized or higher value compared to other industries.
 
 **Which types of customers buy the most high-value products?**
@@ -218,6 +220,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 <dialog id="img51" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/heatmap.png" style="max-width:90vw;">
 </dialog>
+
 **Interpretation**
 - Color intensity → Magnitude  
   - Darker / Blue = higher value  
@@ -242,7 +245,7 @@ Monitoring – Existing customers that are stable but require observation to mai
   <img
     src="{{ site.baseurl }}/images/Horizontal_Chart.png"
     alt="Horizontal_Chart"
-    style="width:300px; cursor:pointer;"
+    style="width:400px; cursor:pointer;"
     onclick="document.getElementById('img52').showModal()"
   >
 </p>
@@ -251,8 +254,6 @@ Monitoring – Existing customers that are stable but require observation to mai
   <img src="{{ site.baseurl }}/images/Horizontal_Chart.png" style="max-width:90vw;">
 </dialog>
 
-**The scatter plot shows customer clusters created by the machine learning model, helping identify groups of customers with similar characteristics.**
-(...)
 
 ### Just Ask
 - Launch Just Ask: Click on the light bulb icon from the toolbar (top right)  
