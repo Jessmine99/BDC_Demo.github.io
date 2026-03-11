@@ -97,7 +97,7 @@ parent: Lab 3
   <img src="{{ site.baseurl }}/images/Fact_Sources_Node.png" style="max-width:90vw;">
 </dialog>
 
-**To better understand product pricing, we create a measure that calculates the average price per product.**
+**To better understand product pricing, we create a measure that calculates the average price per product unit.**
 
 8️⃣ Create:
    - Business Name: `Avg Order Price`
