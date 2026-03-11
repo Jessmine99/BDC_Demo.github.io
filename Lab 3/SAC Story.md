@@ -167,7 +167,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/pie_chart.png"
     alt="pie_chart"
-    style="width:600px; cursor:pointer;"
+    style="width:400px; cursor:pointer;"
     onclick="document.getElementById('img49').showModal()"
   >
 </p>
@@ -190,7 +190,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/bar_chart.png"
     alt="bar_chart"
-    style="width:600px; cursor:pointer;"
+    style="width:400px; cursor:pointer;"
     onclick="document.getElementById('img50').showModal()"
   >
 </p>
@@ -210,7 +210,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/heatmap.png"
     alt="heatmap"
-    style="width:600px; cursor:pointer;"
+    style="width:400px; cursor:pointer;"
     onclick="document.getElementById('img51').showModal()"
   >
 </p>
@@ -226,12 +226,14 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 The heatmap shows that Monitoring accounts with a quality score of 7 purchase the highest number of expensive products. This suggests that these customers are reliable and actively purchasing higher-value products, making them important for revenue generation.
 
 Account type explanation:
+
 Target – New or potential customers that the company is trying to grow.
 Strategic – High-priority customers that are considered very important for the business.
 Monitoring – Existing customers that are stable but require observation to maintain or grow the relationship.
 
 **Which customer segments and industries spend the most on average?**
 (...)
+
 **The scatter plot shows customer clusters created by the machine learning model, helping identify groups of customers with similar characteristics.**
 (...)
 
