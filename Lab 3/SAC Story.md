@@ -132,6 +132,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Deselect 2024, then select `Apply Selections` and see changes in Time Series chart  
 - Deselect 3975 sales org, then select `Apply Selections` and see changes in the table  
 - You will notice that all the widgets are updated, except for the `Global Gross Sales` KPI  
+
 <p>
   <img
     src="{{ site.baseurl }}/images/input_controls.png"
