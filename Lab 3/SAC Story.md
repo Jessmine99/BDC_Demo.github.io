@@ -58,7 +58,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 
 ### Add Time Series Chart
 
-**To understand how sales evolve over time, we create a chart that shows gross sales by order date.**
+**How do gross sales change over time based on order date?**
 
 - Select the `+ Create a Time Series chart` placeholder --> Available objects --> Drag `ORDER_AMOUNT_EURO` to Measures, and `ORDER_DATE_KEY` to `Time location`  
 - Click on the `right side panel` icon from the toolbar to view the chart  
@@ -78,11 +78,11 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img src="{{ site.baseurl }}/images/time_series.png" style="max-width:90vw;">
 </dialog>
 
-Interpretation: Sales are relatively low at the beginning of January, before increasing and reaching their highest point around mid-January. After this peak, sales continue but fluctuate for the rest of the month. Overall, this suggests that mid-January was the strongest sales period, while the rest of the month shows more variable sales activity.
+**Interpretation**: Sales are relatively low at the beginning of January, before increasing and reaching their highest point around mid-January. After this peak, sales continue but fluctuate for the rest of the month. Overall, this suggests that mid-January was the strongest sales period, while the rest of the month shows more variable sales activity.
 
 ### Add tables
 
-**To explore how discounts relate to invoiced revenue across sales organizations, we create a table. This helps us understand whether higher discounts lead to higher or lower completed sales. We use the invoiced revenue measure because it reflects real, finalized sales that have already been billed to customers.**
+**What is the relationship between discounts and invoiced revenue across different sales organizations? We use the invoiced revenue measure because it reflects real, finalized sales that have already been billed to customers.**
 
 - Select the `+ Create a Table` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Rows`, select `+ Add Dimension` --> Select `SOLD_TO_CUSTOMER`, `SALES_ORGANIZATION` --> Click outside the Dimension Dropdown to close it  
@@ -102,11 +102,11 @@ Interpretation: Sales are relatively low at the beginning of January, before inc
   <img src="{{ site.baseurl }}/images/table.png" style="max-width:90vw;">
 </dialog>
 
-Interpretation: Invoiced revenue is different across sales organizations. Some organizations generate much more revenue than others and the level of discounts also varies. This suggests that sales performance is influenced by more than just discount strategies and that some organizations may have stronger customer demand.
+**Interpretation**: Invoiced revenue is different across sales organizations. Some organizations generate much more revenue than others and the level of discounts also varies. This suggests that sales performance is influenced by more than just discount strategies and that some organizations may have stronger customer demand.
 
 ### Add Geo Maps
 
-**To understand the geographic distribution of sales, we create a map that shows customer locations and sales activity across regions.**
+**Where are our customers located, and how is sales activity distributed across regions?**
 
 - Select the `+ Create a Geo Map` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Content layer`, select `Layer Type` --> `Choropleth/Drill`, `Layer Style` --> `Bubble`, `Location Dimension` --> `Customer Location`
@@ -152,34 +152,88 @@ Interpretation: Invoiced revenue is different across sales organizations. Some o
 
 ### Create page 2 
 - Toolbar --> `View` --> `left side panel` --> `Outline` --> `Add second page`  
-- Go to `page 2` and click on `Assets`  
+- Go to `page 2` and click on `Assets` 
 
-### Column Chart: Revenue by Account Type & Industry
+**Which customer segments and account types generate the most revenue in France?**
+
+### Pie Chart
 - From `widgets`, drag `Chart` in the storyboard page 2  
 - Choose data source and the analytic model you created  
+- From `Builder panel` --> Selected chart: `Pie`  
+- Measures: `France revenue`  
+- Dimensions: `CustomerSegment`   
+- Double click on the chart title and change it to: `France Revenue Share by Customer Segment` 
+<p>
+  <img
+    src="{{ site.baseurl }}/images/pie_chart.png"
+    alt="pie_chart"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img49').showModal()"
+  >
+</p>
+
+<dialog id="img49" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/pie_chart.png" style="max-width:90vw;">
+</dialog>
+**Interpretation**: Medium and Low value customers contribute the largest share of revenue in France. This suggests that a significant part of sales comes from customers that are not necessarily classified as the most valuable, meaning they still play an important role in overall revenue.
+
+**In which industries do customers typically pay more per order?**
+
+### Column Chart
+- From `widgets`, drag `Chart` in the storyboard page 2   
 - From `Builder panel` --> Chart orientation: `Vertical`  
-- Measures: `ORDER_AMOUNT_EURO`  
+- Measures: `Avg Order Price`  
 - Dimensions: `Industry`  
-- Color: `accounttype`  
-- Double click on the chart title and change it to: `Revenue per account type & industry`  
+- Color: `Industry`  
+- Double click on the chart title and change it to: `Average Order Price by Industry`
+<p>
+  <img
+    src="{{ site.baseurl }}/images/bar_chart.png"
+    alt="bar_chart"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img50').showModal()"
+  >
+</p>
 
-### Heatmap: High Value Products per Account Type & QualityScore
+<dialog id="img50" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/bar_chart.png" style="max-width:90vw;">
+</dialog>
+**Interpretation**: Across most industries, customers pay roughly similar amounts per order. However, in the healthcare industry, customers tend to pay the highest average order price, which may indicate that products sold in this industry are more specialized or higher value.
+
+**Which types of customers buy the most high-value products?**
+### Heatmap:
 - From `widgets`, drag `Chart` in the storyboard  
-- Choose data source and the analytic model you created  
 - From Builder panel --> Selected chart: `Heatmap`  
-- Color: `High value products`  
+- Color: `Expensive products`  
 - Dimensions: `qualityscore` (X-axis), `accounttype` (Y-axis)  
-- Change title to: `Number of high value products per accounttype, qualityscore`  
+<p>
+  <img
+    src="{{ site.baseurl }}/images/heatmap.png"
+    alt="heatmap"
+    style="width:600px; cursor:pointer;"
+    onclick="document.getElementById('img51').showModal()"
+  >
+</p>
 
-#### Interpretation
+<dialog id="img51" onclick="if(event.target===this)this.close()">
+  <img src="{{ site.baseurl }}/images/heatmap.png" style="max-width:90vw;">
+</dialog>
+**Interpretation**
 - Color intensity → Magnitude  
   - Darker / Blue = higher value  
   - Lighter / Pink = lower value  
 
-**Examples:**  
-- Monitoring – Quality Score 7 → 333 → Monitoring customers with quality score 7 generate many high-value products  
-- Strategic – Quality Score 5 → 251 → Strategic customers with medium quality score generate strong high-value output  
-- Target – Quality Score 1 → 336 → Low-quality Target accounts produce high-value products → growth opportunity or risk 
+The heatmap shows that Monitoring accounts with a quality score of 7 purchase the highest number of expensive products. This suggests that these customers are reliable and actively purchasing higher-value products, making them important for revenue generation.
+
+Account type explanation:
+Target – New or potential customers that the company is trying to grow.
+Strategic – High-priority customers that are considered very important for the business.
+Monitoring – Existing customers that are stable but require observation to maintain or grow the relationship.
+
+**Which customer segments and industries spend the most on average?**
+(...)
+**The scatter plot shows customer clusters created by the machine learning model, helping identify groups of customers with similar characteristics.**
+(...)
 
 ### Just Ask
 - Launch Just Ask: Click on the light bulb icon from the toolbar (top right)  
