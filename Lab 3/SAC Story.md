@@ -154,7 +154,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 - Toolbar --> `View` --> `left side panel` --> `Outline` --> `Add second page`  
 - Go to `page 2` and click on `Assets` 
 
-**Which customer segments and account types generate the most revenue in France?**
+**Which customer segments generate the most revenue in France?**
 
 ### Pie Chart
 - From `widgets`, drag `Chart` in the storyboard page 2  
