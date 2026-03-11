@@ -47,7 +47,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/KPI.png"
     alt="KPI"
-    style="width:500px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img45').showModal()"
   >
 </p>
@@ -69,7 +69,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/time_series.png"
     alt="time_series"
-    style="width:500px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img46').showModal()"
   >
 </p>
@@ -91,7 +91,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/table.png"
     alt="table"
-    style="width:500px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img47').showModal()"
   >
 </p>
@@ -137,7 +137,7 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img
     src="{{ site.baseurl }}/images/input_controls.png"
     alt="input_controls"
-    style="width:400px; cursor:pointer;"
+    style="width:600px; cursor:pointer;"
     onclick="document.getElementById('img48').showModal()"
   >
 </p>

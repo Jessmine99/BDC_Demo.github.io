@@ -17,7 +17,7 @@ The resulting dataset is then shared back to SAP Datasphere and integrated into 
   <img
     src="{{ site.baseurl }}/images/lab 2.png"
     alt="lab 2"
-    style="width:600px; cursor:pointer;"
+    style="width:800px; cursor:pointer;"
     onclick="document.getElementById('img45').showModal()"
   >
 </p>

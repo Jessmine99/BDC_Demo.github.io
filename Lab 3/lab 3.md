@@ -18,7 +18,7 @@ Once the model is activated, it can be used directly in SAP Analytics Cloud to b
   <img
     src="{{ site.baseurl }}/images/lab 3.png"
     alt="lab 3"
-    style="width:400px; cursor:pointer;"
+    style="width:800px; cursor:pointer;"
     onclick="document.getElementById('img46').showModal()"
   >
 </p>

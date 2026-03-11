@@ -19,7 +19,7 @@ After the data is prepared and activated, it is ready to be used for analytics. 
   <img
     src="{{ site.baseurl }}/images/lab 1.png"
     alt="lab 1"
-    style="width:600px; cursor:pointer;"
+    style="width:800px; cursor:pointer;"
     onclick="document.getElementById('img44').showModal()"
   >
 </p>
