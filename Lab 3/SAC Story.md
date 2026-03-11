@@ -78,9 +78,11 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
   <img src="{{ site.baseurl }}/images/time_series.png" style="max-width:90vw;">
 </dialog>
 
+Interpretation: Sales are relatively low at the beginning of January, before increasing and reaching their highest point around mid-January. After this peak, sales continue but fluctuate for the rest of the month. Overall, this suggests that mid-January was the strongest sales period, while the rest of the month shows more variable sales activity.
+
 ### Add tables
 
-**To explore the data in more detail, we create a table that shows sales performance by customer and sales organization, including revenue and discounts.**
+**To explore how discounts relate to invoiced revenue across sales organizations, we create a table. This helps us understand whether higher discounts lead to higher or lower completed sales. We use the invoiced revenue measure because it reflects real, finalized sales that have already been billed to customers.**
 
 - Select the `+ Create a Table` placeholder in the Main Lane of the template  
 - In the `Builder` tab under `Rows`, select `+ Add Dimension` --> Select `SOLD_TO_CUSTOMER`, `SALES_ORGANIZATION` --> Click outside the Dimension Dropdown to close it  
@@ -99,6 +101,8 @@ Log in SAP Analytics Cloud. From `product switch` icon (top right corner) next t
 <dialog id="img47" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/table.png" style="max-width:90vw;">
 </dialog>
+
+Interpretation: Invoiced revenue is different across sales organizations. Some organizations generate much more revenue than others and the level of discounts also varies. This suggests that sales performance is influenced by more than just discount strategies and that some organizations may have stronger customer demand.
 
 ### Add Geo Maps
 
