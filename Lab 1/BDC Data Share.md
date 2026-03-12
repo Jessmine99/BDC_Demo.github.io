@@ -50,3 +50,9 @@ The steps below are provided for informational purposes to explain the process.
 Leave ‘Workspace’ as the default workspace and select ‘Share’.
 
 7️⃣ The data product is now shared with ‘SAP Databricks’.
+
+---
+
+[Lab 2 →](lab 2.md){: .btn .btn-primary }
+
+---

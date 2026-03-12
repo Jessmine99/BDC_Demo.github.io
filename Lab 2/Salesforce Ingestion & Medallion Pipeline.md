@@ -159,3 +159,9 @@ From the last code block, download the table as a **CSV file**.
 <dialog id="img15" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/account_clusters_csv.png" style="max-width:90vw;">
 </dialog>
+
+---
+
+[Data Modeling for Salesforce data →](Data Modeling for Salesforce data.md){: .btn .btn-primary }
+
+---

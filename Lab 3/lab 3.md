@@ -26,3 +26,9 @@ Once the model is activated, it can be used directly in SAP Analytics Cloud to b
 <dialog id="img46" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/lab 3.png" style="max-width:90vw;">
 </dialog>
+
+---
+
+[Harmonize Analytical model →](Harmonize Analytical model.md){: .btn .btn-primary }
+
+---

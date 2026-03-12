@@ -279,3 +279,9 @@ Monitoring – Existing customers that are stable but require observation to mai
 
 {: .note }
 The tool is similar to the Analytic Model Preview tool of SAP Datasphere in terms of functionality and handling
+
+---
+
+[Insights →](Insights.md){: .btn .btn-primary }
+
+---

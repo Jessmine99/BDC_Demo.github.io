@@ -25,3 +25,9 @@ The resulting dataset is then shared back to SAP Datasphere and integrated into 
 <dialog id="img45" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/lab 2.png" style="max-width:90vw;">
 </dialog>
+
+---
+
+[Salesforce Ingestion & Medallion Pipeline →](Salesforce Ingestion & Medallion Pipeline.md){: .btn .btn-primary }
+
+---
