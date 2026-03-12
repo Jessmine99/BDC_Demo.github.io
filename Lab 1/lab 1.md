@@ -27,3 +27,5 @@ After the data is prepared and activated, it is ready to be used for analytics. 
 <dialog id="img44" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/lab 1.png" style="max-width:90vw;">
 </dialog>
+
+[SAP Datasphere ingestion →](sap-datasphere-ingestion.md){: .btn .btn-primary }
