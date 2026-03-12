@@ -40,7 +40,7 @@ parent: Lab 3
   <img
     src="{{ site.baseurl }}/images/Sales_Order_Fact_Node.png"
     alt="Sales_Order_Fact_Node"
-    style="width:300px; cursor:pointer;"
+    style="width:500px; cursor:pointer;"
     onclick="document.getElementById('img33').showModal()"
   >
 </p>
@@ -55,7 +55,7 @@ parent: Lab 3
   <img
     src="{{ site.baseurl }}/images/Material_Dim_Node.png"
     alt="Material_Dim_Node"
-    style="width:300px; cursor:pointer;"
+    style="width:500px; cursor:pointer;"
     onclick="document.getElementById('img34').showModal()"
   >
 </p>
@@ -72,7 +72,7 @@ parent: Lab 3
   <img
     src="{{ site.baseurl }}/images/Customer_Dim_Node.png"
     alt="Customer_Dim_Node"
-    style="width:300px; cursor:pointer;"
+    style="width:500px; cursor:pointer;"
     onclick="document.getElementById('img35').showModal()"
   >
 </p>
