@@ -251,5 +251,3 @@ parent: Lab 3
 ---
 
 [SAC Story →](SAC Story.md){: .btn .btn-primary }
-
----

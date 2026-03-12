@@ -30,5 +30,3 @@ Once the model is activated, it can be used directly in SAP Analytics Cloud to b
 ---
 
 [Harmonize Analytical model →](Harmonize Analytical model.md){: .btn .btn-primary }
-
----

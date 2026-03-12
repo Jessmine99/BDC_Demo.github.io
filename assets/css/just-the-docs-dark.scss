@@ -1,3 +1,13 @@
 ---
 ---
 {% include css/just-the-docs.scss.liquid color_scheme="dark" %}
+
+.sidebar-theme-toggle {
+  margin-top: 1rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.sidebar-theme-toggle .btn {
+  width: 100%;
+  text-align: center;
+}

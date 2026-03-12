@@ -55,4 +55,3 @@ Leave ‘Workspace’ as the default workspace and select ‘Share’.
 
 [Lab 2 →](../Lab 2/lab 2.md){: .btn .btn-primary }
 
----

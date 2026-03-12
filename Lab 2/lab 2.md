@@ -29,5 +29,3 @@ The resulting dataset is then shared back to SAP Datasphere and integrated into 
 ---
 
 [Salesforce Ingestion & Medallion Pipeline →](Salesforce Ingestion & Medallion Pipeline.md){: .btn .btn-primary }
-
----

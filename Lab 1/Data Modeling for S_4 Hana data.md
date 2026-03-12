@@ -301,4 +301,3 @@ At the assocation target box choose the technical name not the business name wit
 
 [BDC Data Share →](BDC Data Share.md){: .btn .btn-primary }
 
----
