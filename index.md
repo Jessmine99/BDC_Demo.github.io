@@ -62,3 +62,6 @@ The company collects operational data such as **sales orders, customer informati
 - How customers differ in their purchasing behavior  
 
 To address this challenge, the analytics team builds an integrated analytics solution using **SAP Business Data Cloud**.
+
+### Preview dark color scheme
+{: .no_toc .text-delta }
