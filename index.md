@@ -63,7 +63,8 @@ The company collects operational data such as **sales orders, customer informati
 
 To address this challenge, the analytics team builds an integrated analytics solution using **SAP Business Data Cloud**.
 
-### Dark color scheme
+---
+
 {: .no_toc .text-delta }
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
