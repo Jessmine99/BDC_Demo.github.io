@@ -85,10 +85,4 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
 ---
 
-<hr>
 
-<div style="text-align:right; margin-top:1rem;">
-  <a href="../Lab 1/lab 1.md" class="btn btn-primary">Lab 3 →</a>
-</div>
-
----
