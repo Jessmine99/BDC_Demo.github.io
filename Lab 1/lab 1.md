@@ -28,4 +28,4 @@ After the data is prepared and activated, it is ready to be used for analytics. 
   <img src="{{ site.baseurl }}/images/lab 1.png" style="max-width:90vw;">
 </dialog>
 
-[SAP Datasphere ingestion →]({{ site.baseurl }}/lab-1/sap-datasphere-ingestion/){: .btn .btn-primary }
+[SAP Datasphere ingestion →]({{ "Lab 1/SAP Datasphere ingestion.md" | relative_url }}){: .btn .btn-primary }
