@@ -10,6 +10,10 @@ nav_enabled: true
 
 plugins:
   - jekyll-remote-theme
+  
+aux_links:
+  Just the Docs on GitHub:
+    - https://github.com/Jessmine99/BDC_Demo
 
 # Show an "On this page" table of contents
 toc_enabled: true
