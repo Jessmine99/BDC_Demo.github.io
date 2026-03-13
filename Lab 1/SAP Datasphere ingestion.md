@@ -168,7 +168,7 @@ We will use the Table editor to manually insert 2 lines
 
 {: .note }
 Download the required CSV files from the IBM Box folder:
-[IBM Lab - “custom” Data Products, Modeling and SAC reporting](https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b)
+<a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">IBM Lab - “custom” Data Products, Modeling and SAC reporting</a>
 
 ### Import csv files into the local tables 
 
