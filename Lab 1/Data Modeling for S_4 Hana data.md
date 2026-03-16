@@ -169,7 +169,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
 <dialog id="img22" onclick="if(event.target===this)this.close()">
   <img src="{{ site.baseurl }}/images/customer_dim_join_1.png" style="max-width:90vw;">
 </dialog>
-️7️⃣ Click on the Left Join operator and choose the filter icon. On the filter properties type the expression: LANGAUGE = 'EN'
+️7️⃣ Click on the Left Join operator and choose the filter icon. On the filter properties type the expression: LANGUAGE = 'EN'
 <p>
   <img
     src="{{ site.baseurl }}/images/Filter_language_1.png"
@@ -187,7 +187,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/Filter_language.png"
     alt="Filter_language"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img65').showModal()"
   >
 </p>
@@ -200,7 +200,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/customer_dim_join_1.1.png"
     alt="ccustomer_dim_customer_dim_join_1.1"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img23').showModal()"
   >
 </p>
@@ -213,7 +213,7 @@ Repeat the same steps as above using the `DIST_CHANNEL` table and rename dimensi
   <img
     src="{{ site.baseurl }}/images/remove_key.png"
     alt="remove_key"
-    style="width:600px; cursor:pointer;"
+    style="width:300px; cursor:pointer;"
     onclick="document.getElementById('img66').showModal()"
   >
 </p>
