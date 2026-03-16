@@ -88,7 +88,7 @@ parent: Lab 3
   <img
     src="{{ site.baseurl }}/images/Fact_Sources_Node.png"
     alt="Fact_Sources_Node"
-    style="width:300px; cursor:pointer;"
+    style="width:500px; cursor:pointer;"
     onclick="document.getElementById('img36').showModal()"
   >
 </p>
