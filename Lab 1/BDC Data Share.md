@@ -8,8 +8,7 @@ nav_order: 3
 # Sharing SAP Business Data Cloud Data Products to SAP Databricks
 
 {: .warning }
-This section cannot be performed within the workshop environment. HANA Data Like File Storage capacity is a prerequisite.
-The steps below are provided for informational purposes to explain the process.
+This section cannot be performed within the workshop environment.**HANA Data Like File Storage capacity is a prerequisite.**The steps below are provided for informational purposes to explain the process.
 
 1️⃣ In the side navigation area, go to ‘Data Sharing Cockpit’ → ‘My Data Products’.
 

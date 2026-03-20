@@ -9,6 +9,10 @@ nav_order: 1
 
 Log in SAP Databricks.
 
+{: .note }
+Download the required file EU_Accounts.xlsx from the IBM Box folder:
+<a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">IBM Lab - “custom” Data Products, Modeling and SAC reporting</a>
+
 ## SFDC Data Ingestion
 - Click on `+New` at the top left --> `Add or upload data` --> Choose `EU_Accounts` xlsx file.  
 - In the catalog, choose `workspace` and for the schema choose `default`  
@@ -30,11 +34,11 @@ Log in SAP Databricks.
 ## Data Modeling - Medallion pipeline
 
 {: .note }
-Download the required notebook from the IBM Box folder:
+Download the required notebook EU_Accounts (Data modeling).ipynb from the IBM Box folder:
 <a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">IBM Lab - “custom” Data Products, Modeling and SAC reporting</a>
 
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> `EU_Accounts (Data Modeling)` notebook  
-- Open the notebook and run the code  
+- Open the notebook, take some time to review the code and its descriptions, and then run it. 
 
 <p>
   <img
@@ -123,7 +127,7 @@ Using the Gold dataset:
 ## Publish Data Product
 
 {: .note }
-Download the required notebook from the IBM Box folder:
+Download the required notebook Publish_Data_Product_Accounts.ipynb from the IBM Box folder:
 <a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">IBM Lab - “custom” Data Products, Modeling and SAC reporting</a>
 
 - Workspace --> Users --> Click on your username --> Click on the 3 vertical dots next to `Share` on top right corner --> `Import` --> Import `Publish_Data_Product_EU_Accounts` notebook   

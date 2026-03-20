@@ -323,7 +323,7 @@ At the assocation target box choose the technical name not the business name wit
 </dialog>
 
 {: .note }
-**Modular approach:** If you encounter issues in this section, you can upload the provided dimensions and continue with the following steps.
+**Modular approach:** If you encounter issues in this section, you can upload the provided dimensions and continue with the following steps. Files: DISTR_CHANNEL_DIM.json, Customer_DIM.json, Material_Dim.json, Sales_Order_Fact.json
 <a href="https://ibm.ent.box.com/folder/369590392350?s=n5xb24fwnpfk4x0izfeyxyk4b6leuc2t&tc=collab-folder-invite-treatment-b" target="_blank">IBM Lab - “custom” Data Products, Modeling and SAC reporting</a>
 
 ---
