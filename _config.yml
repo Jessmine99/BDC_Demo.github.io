@@ -26,9 +26,6 @@ gh_edit_repository: "https://github.com/Jessmine99/BDC_Demo"
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
 
-# Show an "On this page" table of contents
-toc_enabled: true
-
 #Callouts
 callouts:
   highlight:
